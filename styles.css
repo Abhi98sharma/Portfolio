@@ -54,6 +54,10 @@ p {
 .bg-black {
   background: #000 !important;
 }
+.color-blue {
+  color:#f64f59 !important;
+}
+
 
 /* Navbar  */
 
@@ -81,6 +85,7 @@ p {
   width: 60%;
   margin-left: 200px;
 }
+
 /* Buttons */
 
 .btn-primary {
@@ -95,7 +100,7 @@ p {
 .btn-secondary {
   height: 40px !important;
   width: 130px !important;
-  background: #c471ed !important;
+  background: #03203c !important;
   border: none !important;
   border-radius: 20px !important;
   display: flex !important;
@@ -133,7 +138,6 @@ p {
 
 .card-text {
   color: #272e36 !important;
-  /* color: #0000 !important; */
   font-weight: 20;
   font-size: 15px;
 }
@@ -156,7 +160,7 @@ p {
 
 /* footer */
 footer .fab {
-  color: black !important;
+  color: #000 !important;
   font-size: 1.5rem;
   border: 1px solid black;
   border-radius: 50%;
@@ -183,9 +187,4 @@ footer p {
     width: 300px;
     height: 530px;
   }
-  #home img {
-    margin-left: 90px;
-    margin-top: 50px;
-  }
 }
-/* #7F4D3E */
