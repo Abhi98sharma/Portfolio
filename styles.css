@@ -55,9 +55,8 @@ p {
   background: #000 !important;
 }
 .color-blue {
-  color:#f64f59 !important;
+  color: #f64f59 !important;
 }
-
 
 /* Navbar  */
 
@@ -85,6 +84,10 @@ p {
   width: 60%;
   margin-left: 200px;
 }
+/* #skills{
+  background-image: url("images/groot-code.jpg");
+  background-size: cover;
+} */
 
 /* Buttons */
 
@@ -116,6 +119,7 @@ p {
 /* Skills */
 .descr {
   padding-bottom: 50px;
+  color: #000;
 }
 
 /* Projects */
