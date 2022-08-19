@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap");
-/* 
-
 /* Cursor */
 body::-webkit-scrollbar {
   width: 0.7em;
@@ -32,13 +30,11 @@ h1 {
 h2 {
   font-size: 35px !important;
   font-weight: 540 !important;
-  /* line-height: 70px !important; */
 }
 h3 {
   font-style: normal !important;
   font-weight: 600 !important;
   font-size: 20px !important;
-  /* line-height: 1 !important; */
 }
 
 p {
@@ -46,9 +42,6 @@ p {
 }
 .bg-black {
   background: #000 !important;
-}
-.color-blue {
-  color: #f64f59 !important;
 }
 
 /* Navbar  */
@@ -78,24 +71,24 @@ p {
 /* Buttons */
 
 .btn-primary {
-  height: 46px !important;
-  width: 150px !important;
+  height: 46px;
+  width: 150px;
   background: #0ea5e9 !important;
   border-radius: 20px !important;
-  display: flex !important;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 .btn-secondary {
-  height: 40px !important;
-  width: 130px !important;
+  height: 40px;
+  width: 130px;
   background: #03203c !important;
   border: none !important;
   border-radius: 20px !important;
   display: flex !important;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0px !important;
+  margin-bottom: 0px;
 }
 .btncode:hover {
   color: #000 !important;
@@ -115,17 +108,17 @@ p {
     rgba(196, 113, 237, 0.095) 102.91%
   ) !important;
 
-  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37) !important;
-  backdrop-filter: blur(4px) !important;
-  -webkit-backdrop-filter: blur(4px) !important;
-  border-radius: 16px !important;
-  border: 1px !important;
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px;
   width: 350px;
   height: 565px;
   border: 2px solid;
 }
 .card-text {
-  color: #272e36 !important;
+  color: #272e36;
   font-weight: 20;
   font-size: 15px;
 }
@@ -135,9 +128,9 @@ p {
   color: #c471ed;
 }
 .card-img-top {
-  border-radius: 16px 16px 0px 0px !important ;
+  border-radius: 16px 16px 0px 0px;
   height: 206px !important;
-  background-size: cover !important;
+  background-size: cover;
 }
 #projects .bankist {
   width: auto;
@@ -145,7 +138,7 @@ p {
 
 /* footer */
 footer .fab {
-  color: #000 !important;
+  color: #000;
   font-size: 1.5rem;
   border: 1px solid black;
   border-radius: 50%;
