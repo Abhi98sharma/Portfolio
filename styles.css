@@ -5,11 +5,9 @@
 body::-webkit-scrollbar {
   width: 0.7em;
 }
-
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
-
 body::-webkit-scrollbar-thumb {
   background: #ed5e93;
 }
@@ -22,24 +20,20 @@ body::-webkit-scrollbar-thumb {
   background-clip: text;
   font-weight: 700 !important;
 }
-
 body {
   font-family: Poppins, sans-serif !important;
 }
-
 h1 {
   font-size: 70px !important;
   font-weight: 700 !important;
   line-height: 70px !important;
   color: #fff;
 }
-
 h2 {
   font-size: 35px !important;
   font-weight: 540 !important;
   /* line-height: 70px !important; */
 }
-
 h3 {
   font-style: normal !important;
   font-weight: 600 !important;
@@ -50,7 +44,6 @@ h3 {
 p {
   color: #e5e5e5 !important;
 }
-
 .bg-black {
   background: #000 !important;
 }
@@ -65,7 +58,6 @@ p {
   font-weight: 300;
   font-size: 18px;
 }
-
 #navbar .fab {
   font-size: 1.3rem;
   color: #e5e5e5 !important;
@@ -74,20 +66,14 @@ p {
 .nav-link:hover {
   color: #f64f59 !important;
 }
-
 /* Home */
 #home {
   background-color: black;
 }
-
 #home img {
   width: 60%;
   margin-left: 200px;
 }
-/* #skills{
-  background-image: url("images/groot-code.jpg");
-  background-size: cover;
-} */
 
 /* Buttons */
 
@@ -111,7 +97,6 @@ p {
   justify-content: center;
   margin-bottom: 0px !important;
 }
-
 .btncode:hover {
   color: #000 !important;
 }
@@ -139,25 +124,21 @@ p {
   height: 565px;
   border: 2px solid;
 }
-
 .card-text {
   color: #272e36 !important;
   font-weight: 20;
   font-size: 15px;
 }
-
 .card-title {
   font-weight: 700;
   font-size: 30px;
   color: #c471ed;
 }
-
 .card-img-top {
   border-radius: 16px 16px 0px 0px !important ;
   height: 206px !important;
   background-size: cover !important;
 }
-
 #projects .bankist {
   width: auto;
 }
@@ -185,10 +166,14 @@ footer p {
   h1 {
     font-size: 50px !important;
     font-weight: 700 !important;
+    line-height: 50px !important;
   }
-
   .card {
     width: 300px;
     height: 530px;
+  }
+  #home img {
+    margin-top: 50px;
+    margin-left: 50px;
   }
 }
