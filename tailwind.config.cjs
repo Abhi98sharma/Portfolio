@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        "Kameron": ['Kameron', "serif"],
+        "Pridi": ['Pridi', "serif"],
+        "Quicksand": ['Quicksand', "sans-serif"],
         "Inter": ["Inter", "sans-serif"]
       }
     },
