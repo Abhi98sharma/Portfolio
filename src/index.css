@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,3 +9,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.vector-image {
+  transition: 0.5s all;
+  animation: animation 4s infinite alternate-reverse forwards ease-in-out;
+}
+
+
