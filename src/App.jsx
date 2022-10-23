@@ -1,33 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <>
+      <div className='max-w-full min-h-screen text-white'>
+        <nav className='max-w-full h-[80px] font-Inter bg-[#111111]  flex items-center justify-between px-[120px]'>
+          <img className="w-[57px] h-[61px]" src="/Logo.svg" alt="logo" />
+          <ul className='flex justify-between items-center w-[600px]'>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Projects</li>
+            <li>Contact</li>
+            <button><img className='w-12' src="/icon _sun outline_.png" alt="" /></button>
+          </ul>
+        </nav>
+        <main className='bg-black flex justify-center items-center px-20 py-32'>
+          <div className="w-[820px] h-[315px] space-y-5">
+            <h1 className='text-[30px] font-semibold '>Abhijeet Sharma</h1>
+            <h1 className='text-[70px] font-bolder'>Aspiring Web Developer</h1>
+            <p className='text-[30px] font-light'>I'm an aspiring web developer, fond of learning new technologies.
+              Passionate about designing and creating products.
+              Currently, learning MERN Stack Development.</p>
+            <div>
+              <button className='w-64 h-20 font-bold text-[30px] bg-[#3A36F3]'>Resume</button>
+            </div>
+          </div>
+          <div className="image">
+            <img className='max-w-96 max-h-96' src="../public/images/pic-modified.png" alt="" />
+          </div>
+        </main>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    </>
   )
 }
 
