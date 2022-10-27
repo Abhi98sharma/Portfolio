@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@700&family=Pridi:wght@300&family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,9 +11,5 @@
   box-sizing: border-box;
 }
 
-.vector-image {
-  transition: 0.5s all;
-  animation: animation 4s infinite alternate-reverse forwards ease-in-out;
-}
 
 
