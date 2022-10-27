@@ -3,24 +3,40 @@ import Tilt from 'react-parallax-tilt';
 export default function Cards() {
     return (
         <>
-            <Tilt>
-                <div className="h-[400px] bg-[#1E1E1E] text-white shadow shadow-white outline-none border-none rounded-md">
-                    <img className='w-full object-cover rounded-md rounded-b-none ' src="/screenshot/paytm-clone-image.png" alt="" />
-                    <div className='px-3 space-y-4'>
-                        <h1 className='mt-4 text-2xl font-Quicksand'>Paytm-Clone</h1>
-                        <p className='text-[15px] font-Inter'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, perspiciatis!</p>
-                        <div className='w-full flex space-x-4 font-Inter'>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JS</span>
+            <section className="grid grid-cols-2 space-x-20" >
+                <Tilt>
+                    <div className="relative hover:scale-125" >
+                        <img src="/Project-14.png" alt="" />
+                    </div>
+                </Tilt>
+                <div className="flex flex-col justify-center items-start p-6 space-y-4 font-Inter">
+                    <h1 className="text-3xl font-Quicksand">Portfolio Landing Page</h1>
+                    <p className="text-md">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id excepturi culpa sapiente at tempora, odio nostrum voluptatum perspiciatis omnis architecto?
+                    </p>
+                    <div className="flex flex-col justify-start space-y-2">
+                        <div className="text-xl space-x-2">
+                            <small>HTML5</small>
+                            <small>CSS</small>
+                            <small>JavaScript</small>
                         </div>
-                        <div className='flex space-x-3'>
-                            <img className='bg-white' src="/assets/github.svg" alt="" />
-                            <img className='bg-white' src="/assets/link.svg" alt="" />
+                        <div className="flex space-x-3">
+                            <a
+                                href="#"
+                                target="_blank"
+                            >
+                                <img src="/assets/github.svg" alt="" />
+                            </a>
+                            <a
+                                href="#"
+                                target="_blank"
+                            >
+                                <img src="/assets/link.svg" alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
-            </Tilt>
+            </section>
         </>
     )
 }
