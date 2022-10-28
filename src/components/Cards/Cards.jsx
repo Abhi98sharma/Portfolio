@@ -5,7 +5,7 @@ export default function Cards() {
         <>
             <section className="grid grid-cols-2 space-x-20" >
                 <Tilt>
-                    <div className="relative hover:scale-125" >
+                    <div className="relative hover:scale-110" >
                         <img src="/Project-14.png" alt="" />
                     </div>
                 </Tilt>
@@ -25,14 +25,15 @@ export default function Cards() {
                                 href="#"
                                 target="_blank"
                             >
-                                <img src="/assets/github.svg" alt="" />
+                                <img src="/assets/github.svg" alt="github-icon" />
                             </a>
                             <a
                                 href="#"
                                 target="_blank"
                             >
-                                <img src="/assets/link.svg" alt="" />
+                                <img src="/assets/link.svg" alt="link-icon" />
                             </a>
+
                         </div>
                     </div>
                 </div>

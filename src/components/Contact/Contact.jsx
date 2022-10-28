@@ -9,7 +9,7 @@ export default function Contact() {
           <div>
             <div className="flex">
               <img className="w-36 h-20 z-20" src="/assets/name-logo.svg" alt="logo" />
-              <img className='mt-5' src="/assets/Line 1.svg" alt="design-line" />
+              <img className='mt-5' src="/assets/Line 2.svg" alt="design-line" />
             </div>
             <h1 className='font-Pridi text-[#fff]'>Designed & Built by Abhijeet Sharma</h1>
           </div>

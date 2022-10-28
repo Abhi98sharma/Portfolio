@@ -1,4 +1,5 @@
 import Cards from "../Cards/Cards"
+import { HiArrowUpRight } from "react-icons/hi2";
 
 export default function Projects() {
   return (
@@ -9,8 +10,13 @@ export default function Projects() {
           <div className="w-full grid grid-cols-1 px-20 space-y-24">
             <Cards />
             <Cards />
-            <Cards />
           </div>
+        </div>
+        <div className="flex justify-end items-center p-3 gap-x-2">
+          <h1>More on my Github</h1>
+          <a href="#">
+            <HiArrowUpRight color="white" size={15} />
+          </a>
         </div>
       </section>
     </>
