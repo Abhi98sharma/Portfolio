@@ -1,32 +1,33 @@
-import React from 'react'
-
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
-  return (
-    <>
-      <footer class="text-gray-600 body-font bg-[#111111] font-Inter px-5">
-        <div class="container px-5 py-5 mx-auto flex items-center sm:flex-row flex-col">
-          <div>
-            <div className="flex">
-              <img className="w-36 h-20 z-20" src="/assets/name-logo.svg" alt="logo" />
-              <img className='mt-5' src="/assets/Line 2.svg" alt="design-line" />
-            </div>
-            <h1 className='font-Pridi text-[#fff]'>Designed & Built by Abhijeet Sharma</h1>
-          </div>
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-gray-500">
-              <img width={24} src="/socials-icon/github.png" alt="" />
-            </a>
-            <a class="ml-3 text-gray-500">
-              <img width={24} src="/socials-icon/linkedin.png" alt="" />
-            </a>
-            <a class="ml-3 text-gray-500">
-              <img width={24} src="/socials-icon/twitter.png" alt="" />
-            </a>
-          </span>
-        </div>
-      </footer>
-    </>
-  )
-}
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_yi5u7ak', 'template_z8p0c9v', form.current, 'nG2rb11fITDwilLBW')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset();
+    }
 
+    return (
+        <>
+            <section id='contact' className='max-w-full flex flex-col justify-center items-center gap-5 p-10'>
+                <h1 className="text-[50px] pt-10 pb-5 font-Quicksand font-bold">Get In Touch</h1>
+                <h3 className="text-[30px]  font-Quicksand font-bold">Contact Me</h3>
+                <div className='w-[40%]'>
+                    <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-5 text-white'>
+                        <input className='w-full p-4 bg-transparent border border-[#3a36f3] border-solid resize-none' type="text" name='name' placeholder='Your Name' required />
+                        <input className='w-full p-4 bg-transparent border border-[#3a36f3] border-solid resize-none' type="email" name='email' placeholder='Your Email' required />
+                        <textarea className='w-full p-4 bg-transparent border border-[#3a36f3] border-solid resize-none' name="message" id="" rows="7" placeholder='Your Message...' required></textarea>
+                        <button className='btn'>Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </>
+    )
+}

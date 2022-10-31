@@ -1,6 +1,6 @@
 import Tilt from 'react-parallax-tilt';
 
-export default function Cards() {
+export default function Cards({title}) {
     return (
         <>
             <section className="grid grid-cols-2 space-x-20" >
@@ -10,7 +10,7 @@ export default function Cards() {
                     </div>
                 </Tilt>
                 <div className="flex flex-col justify-center items-start p-6 space-y-4 font-Inter">
-                    <h1 className="text-3xl font-Quicksand">Portfolio Landing Page</h1>
+                    <h1 className="text-3xl font-Quicksand">{title}</h1>
                     <p className="text-md">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id excepturi culpa sapiente at tempora, odio nostrum voluptatum perspiciatis omnis architecto?
                     </p>
