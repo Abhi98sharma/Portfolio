@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "../public/screenshot/Project-1.png",
+        "title": "HTML CSS Project",
+        "description": "",
+        "tech": [
+            "HTML",
+            "CSS"
+        ],
+        "github": "",
+        "live-link": ""
+    },
+    {
+        "id": 2,
+        "image": "../public/screenshot/Project-1.png",
+        "title": "HTML CSS Project",
+        "description": "",
+        "tech": [
+            "HTML",
+            "CSS"
+        ],
+        "github": "",
+        "live-link": ""
+    }
+]
