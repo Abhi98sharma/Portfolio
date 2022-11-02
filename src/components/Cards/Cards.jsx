@@ -13,11 +13,7 @@ export default function Cards() {
           </Tilt>
           <div className="flex flex-col justify-center items-start p-6 space-y-4 font-Inter">
             <h1 className="text-3xl font-Quicksand">{data.title}</h1>
-            <p className="text-md">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
-              excepturi culpa sapiente at tempora, odio nostrum voluptatum
-              perspiciatis omnis architecto?
-            </p>
+            <p className="text-md">{data.description}</p>
             <div className="flex flex-col justify-start space-y-2">
               <div className="text-xl space-x-2">
                 <small>{data.tech[0]}</small>
@@ -25,10 +21,10 @@ export default function Cards() {
                 <small>{data.tech[2]}</small>
               </div>
               <div className="flex space-x-3">
-                <a href="#" target="_blank">
+                <a href={data.github} target="_blank">
                   <img src="/assets/github.svg" alt="github-icon" />
                 </a>
-                <a href="#" target="_blank">
+                <a href={data.live} target="_blank">
                   <img src="/assets/link.svg" alt="link-icon" />
                 </a>
               </div>

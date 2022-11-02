@@ -1,14 +1,53 @@
 [
     {
         "id": 1,
-        "image": "/screenshot/Project-1.png",
-        "title": "HTML CSS Project",
-        "description": "",
+        "image": "/screenshot/Meme-Generator.png",
+        "title": "Meme Generator",
+        "description": "Created Random Meme Generator using React.js",
         "tech": [
-            "HTML",
+            "React.js",
+            "JavaScript",
             "CSS"
         ],
-        "github": "",
-        "live-link": ""
-    }    
+        "github": "https://github.com/Abhijeet03s/Meme-Generator",
+        "live": "https://abhijeet-random-meme-generator.netlify.app/"
+    },
+    {
+        "id": 2,
+        "image": "/screenshot/Task-Mangement-App.png",
+        "title": "Task-Management",
+        "description": "Created Task Management App using React.js.You can apply all CRUD operations.",
+        "tech": [
+            "React.js",
+            "Tailwind CSS",
+            "JavaScript"
+        ],
+        "github": "https://github.com/Abhijeet03s/Task-Management-App",
+        "live": "https://abhijeet-todo-app.netlify.app/"
+    },
+    {
+        "id": 3,
+        "image": "/screenshot/Tenzies-Game.png",
+        "title": "Tenzies Game",
+        "description": "Created Task Management App using React.js.You can apply all CRUD operations.",
+        "tech": [
+            "React.js",
+            "JavaScript",
+            "CSS"
+        ],
+        "github": "https://github.com/Abhijeet03s/Tenzies-Game",
+        "live": "https://reactjs-tenzi-game.netlify.app/"
+    },
+    {
+        "id": 4,
+        "image": "/screenshot/RØDE-Microphones-image.png",
+        "title": "Tailwind Project",
+        "description": "Created Rode-Clone using Tailwind CSS.",
+        "tech": [
+            "HTML",
+            "Tailwind-CSS"
+        ],
+        "github": "https://github.com/Abhijeet03s/Rode-Clone",
+        "live": "https://rode-clone-fs-js.netlify.app/"
+    }
 ]
