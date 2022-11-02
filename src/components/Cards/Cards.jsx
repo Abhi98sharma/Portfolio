@@ -8,7 +8,7 @@ export default function Cards() {
         <section key={data.id} className="grid grid-cols-2 space-x-20">
           <Tilt>
             <div className="relative hover:scale-110">
-              <img src={data.image} alt="" />
+              <img src={data.image} alt="project-image" />
             </div>
           </Tilt>
           <div className="flex flex-col justify-center items-start p-6 space-y-4 font-Inter">

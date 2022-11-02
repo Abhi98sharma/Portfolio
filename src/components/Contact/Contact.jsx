@@ -24,7 +24,7 @@ export default function Contact() {
                         <input className='w-full p-4 bg-transparent border border-[#3a36f3] border-solid resize-none' type="text" name='name' placeholder='Your Name' required />
                         <input className='w-full p-4 bg-transparent border border-[#3a36f3] border-solid resize-none' type="email" name='email' placeholder='Your Email' required />
                         <textarea className='w-full p-4 bg-transparent border border-[#3a36f3] border-solid resize-none' name="message" id="" rows="7" placeholder='Your Message...' required></textarea>
-                        <button className='btn'>Send Message</button>
+                        <button className='btn btn-contact'>Send Message</button>
                     </form>
                 </div>
             </section>

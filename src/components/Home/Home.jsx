@@ -8,8 +8,8 @@ export default function Home() {
               <h1 className='text-[25px] text-[#fff] font-Kameron font-semibold'>Abhijeet Sharma</h1>
               <img className='mb-2 pl-2' src="/assets/Line 1.svg" alt="design-line" />
             </div>
-            <h1 className='text-[59px] font-Quicksand name-heading'>Aspiring Web Developer</h1>
-            <p className='text-[22px] w-[740px] font-light font-Pridi'>I'm an aspiring web developer, fond of learning new technologies.
+            <h1 className='text-[59px] font-Quicksand name-heading'>Front-end Developer</h1>
+            <p className='text-[22px] w-[740px] font-light font-Pridi'>I'm an front-end developer, fond of learning new technologies.
               Passionate about designing and creating products.
               Currently, learning MERN Stack Development.</p>
             <div className='w-[245px] mt-10'>

@@ -76,3 +76,7 @@ nav a.active {
 .btn:hover {
   color: #fff;
 }
+
+.btn-contact{
+  width: 28%;
+}

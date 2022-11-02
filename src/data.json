@@ -29,7 +29,7 @@
         "id": 3,
         "image": "/screenshot/Tenzies-Game.png",
         "title": "Tenzies Game",
-        "description": "Created Task Management App using React.js.You can apply all CRUD operations.",
+        "description": "Created Tenzies Game using React.js.",
         "tech": [
             "React.js",
             "JavaScript",
@@ -40,6 +40,19 @@
     },
     {
         "id": 4,
+        "image": "/screenshot/e-STORE-App.png",
+        "title": "e-STORE",
+        "description": "Created an e-Commerce App aka 'e-STORE' using React.js and Fake-Store API. You can add, delete, and see products using the categories tab.",
+        "tech": [
+            "React.js",
+            "JavaScript",
+            "API"
+        ],
+        "github": "https://github.com/Abhijeet03s/E-commerce-Cart-App",
+        "live": "https://abhijeet-e-store.netlify.app/"
+    },
+    {
+        "id": 5,
         "image": "/screenshot/RØDE-Microphones-image.png",
         "title": "Tailwind Project",
         "description": "Created Rode-Clone using Tailwind CSS.",
