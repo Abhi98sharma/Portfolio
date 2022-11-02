@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Navbar({ darkMode, setDarkMode }) {
+export default function Navbar() {
 
     const [activeState, setActiveState] = useState("#home");
 
@@ -27,7 +27,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
                     <a href="#contact" onClick={() => setActiveState("#contact")} className={activeState === "#contact" ? "active transition ease-in-out delay-100 hover:text-[#3A36F3]" : " "}>Contacts
                     </a>
 
-                    <button onClick={() => setDarkMode(!darkMode)}>
+                    <button>
                         <img className='w-8' src="/assets/icon _sun outline_.png" alt="light-icon" />
                     </button>
                 </ul>
@@ -35,5 +35,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
         </>
     )
 }
+
+// onClick={() => setDarkMode(!darkMode)}
 
 
