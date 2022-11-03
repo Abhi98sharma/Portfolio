@@ -46,6 +46,10 @@ p {
 
 /* Navbar  */
 
+.width{
+  width: 15%;
+}
+
 .nav-link {
   color: #e5e5e5 !important;
   font-weight: 300;
