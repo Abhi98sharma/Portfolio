@@ -6,7 +6,7 @@ export default function Skills() {
           <h1 className="text-[50px] font-Quicksand font-bold">Skills</h1>
           <div className="grid grid-cols-2 gap-x-10 w-[80%]">
             <div className="flex justify-center items-center">
-              <img src="/assets/skills.png" alt="skill-image" />
+              <img src="/assets/Untitled design.gif" alt="skill-image" />
             </div>
             <div className="grid grid-cols-3 place-items-center gap-5 py-3 text-center font-Pridi font-medium">
               <div className="space-y-4">
@@ -53,7 +53,7 @@ export default function Skills() {
                 />
                 <h3>Bootstrap</h3>
               </div>
-              <div className="space-y-4">
+              <div className="col-span-3 space-y-4">
                 <img
                   className="w-24"
                   src="/skills/Figma logo.svg"

@@ -23,14 +23,14 @@ export default function Home() {
             <p className="text-[22px] w-[740px] font-light font-Pridi">
               I'm an front-end developer, fond of learning new technologies.
               Passionate about designing and creating products. Currently,
-              learning MERN Stack Development.
+              learning Web Development.
             </p>
-            <div className="w-[245px] mt-10">
+            <div className="w-[245px] mt-10 btn">
               <a
                 href="https://drive.google.com/file/d/1fc3xP9f-R06C_2Bxj84FSIq1-A-kap_p/view?usp=share_link"
                 target="_blank"
               >
-                <button className="btn">Resume</button>
+                Resume
               </a>
             </div>
           </div>

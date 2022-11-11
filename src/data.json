@@ -29,7 +29,7 @@
         "id": 3,
         "image": "/screenshot/Tenzies-Game.png",
         "title": "Tenzies Game",
-        "description": "Created Tenzies Game using React.js.",
+        "description": "Created Tenzies Game using React.js.Everyone gets ten dice. Someone says, “Go.” Then everyone rolls and rolls as fast as they can until someone gets all their dice on the same number and shouts “TENZI.”",
         "tech": [
             "React.js",
             "JavaScript",
@@ -46,7 +46,7 @@
         "tech": [
             "React.js",
             "JavaScript",
-            "API"
+            "Fake-Store-API"
         ],
         "github": "https://github.com/Abhijeet03s/E-commerce-Cart-App",
         "live": "https://abhijeet-e-store.netlify.app/"
@@ -54,7 +54,7 @@
     {
         "id": 5,
         "image": "/screenshot/RØDE-Microphones-image.png",
-        "title": "Tailwind Project",
+        "title": "Rode-Clone",
         "description": "Created Rode-Clone using Tailwind CSS.",
         "tech": [
             "HTML",
