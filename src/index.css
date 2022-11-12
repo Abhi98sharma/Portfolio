@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kameron:wght@700&family=Pridi:wght@300&family=Quicksand:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
-/* https://colorhunt.co/palette/0000001500503f0071610094 */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -77,6 +75,15 @@ nav a.active {
   color: #fff;
 }
 
-.btn-contact{
+.btn-contact {
   width: 32%;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 30%;
+  }
+  .btn-contact {
+    width: 60%;
+  }
 }

@@ -2,13 +2,13 @@ export default function Skills() {
   return (
     <>
       <section id="skills" className="max-w-full bg-[#111111]">
-        <div className="flex flex-col justify-center items-center px-20 pt-10 pb-20 space-y-12">
+        <div className="flex flex-col justify-center items-center px-3 lg:px-20 pt-10 pb-20 space-y-12">
           <h1 className="text-[50px] font-Quicksand font-bold">Skills</h1>
-          <div className="grid grid-cols-2 gap-x-10 w-[80%]">
+          <div className="grid grid-rows-1 lg:grid-cols-2 gap-x-10 w-[80%] space-y-20">
             <div className="flex justify-center items-center">
               <img src="/assets/Untitled design.gif" alt="skill-image" />
             </div>
-            <div className="grid grid-cols-3 place-items-center gap-5 py-3 text-center font-Pridi font-medium">
+            <div className="grid grid-cols-3 place-items-center gap-10 lg:gap-5 py-3 text-center font-Pridi font-medium">
               <div className="space-y-4">
                 <img
                   className="w-24"
@@ -53,7 +53,7 @@ export default function Skills() {
                 />
                 <h3>Bootstrap</h3>
               </div>
-              <div className="col-span-3 space-y-4">
+              <div className="lg:col-span-3 space-y-4">
                 <img
                   className="w-24"
                   src="/skills/Figma logo.svg"

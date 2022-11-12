@@ -5,7 +5,7 @@ export default function Cards() {
   return (
     <>
       {projectsData.map((data) => (
-        <section key={data.id} className="grid grid-cols-2 space-x-20">
+        <section key={data.id} className="lg:grid grid-cols-2 space-y-10 lg:space-x-20">
           <Tilt>
             <div className="relative hover:scale-110">
               <img src={data.image} alt="project-image" />

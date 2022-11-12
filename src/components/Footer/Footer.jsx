@@ -4,7 +4,7 @@ export default function Footer() {
       <footer class="text-gray-600 body-font bg-[#111111] font-Inter px-5">
         <div class="container px-5 py-5 mx-auto flex items-center sm:flex-row flex-col">
           <div>
-            <div className="flex">
+            <div className="flex justify-center lg:justify-start">
               <img className="w-36 h-20 z-20" src="/assets/name-logo.svg" alt="logo" />
               <img className='mt-5' src="/assets/Line 2.svg" alt="design-line" />
             </div>

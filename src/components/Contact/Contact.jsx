@@ -27,12 +27,12 @@ export default function Contact() {
     <>
       <section
         id="contact"
-        className="max-w-full min-h-screen flex flex-col justify-center items-center gap-5 p-10"
+        className="max-w-full min-h-screen flex flex-col justify-center items-center gap-5 p-3 lg:p-10"
       >
-        <h1 className="text-[50px] pt-10 pb-5 font-Quicksand font-bold">
+        <h1 className="text-[50px] p-5 font-Quicksand font-bold">
           Get In Touch
         </h1>
-        <div className="grid grid-cols-2 gap-x-10 w-[80%]">
+        <div className="grid grid-rows-1 lg:grid-cols-2 gap-x-10 py-10 w-[80%]">
           <div className="flex justify-center items-center">
             <img src="/assets/contact.png" alt="contact-img" />
           </div>
