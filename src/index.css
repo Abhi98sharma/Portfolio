@@ -50,7 +50,7 @@ nav a.active {
   z-index: 1;
   color: #3a36f3;
   font-weight: 500;
-  padding: 12px 20px;
+  padding: 10px 20px;
 }
 
 .btn::before {
