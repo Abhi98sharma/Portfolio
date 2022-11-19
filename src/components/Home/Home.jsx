@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <main
         id="home"
-        className="min-h-screen bg-black flex flex-col lg:flex-row-reverse justify-center items-center py-16 px-10 lg:px-20 lg:py-32 lg:bg-image relative"
+        className="bg-black flex flex-col lg:flex-row-reverse justify-center items-center p-10 lg:px-20 lg:py-32 lg:bg-image relative"
       >
         <div className="object-cover">
           <img src="/images/profile-pic.png" alt="profile-pic" />
