@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({ toggle }) {
   const [activeState, setActiveState] = useState("#home");
 
   return (
     <>
-      <nav className="max-w-full container h-[80px] bg-[#111111] flex items-center justify-between text-white px-8 lg:px-[120px] font-Pridi text-[16px] sticky top-0 dark:bg-white dark:text-black z-10">
+      <nav className="max-w-full container h-[80px] bg-[#111111] flex items-center justify-between text-white px-8 lg:px-[120px] font-Pridi text-[16px] sticky top-0 z-10">
         <a href="#">
           <img
             className="w-40 lg:w-48 lg:h-20"
@@ -20,7 +20,8 @@ export default function Navbar() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="w-8 h-8"
+            onClick={toggle}
           >
             <path
               strokeLinecap="round"
@@ -30,7 +31,7 @@ export default function Navbar() {
           </svg>
         </button>
 
-        <ul className="hidden lg:flex justify-between items-center w-[600px]">
+        <ul className="hidden lg:flex justify-between items-center w-[450px]">
           <a
             href="#home"
             onClick={() => setActiveState("#home")}
@@ -89,20 +90,10 @@ export default function Navbar() {
                 : " "
             }
           >
-            Contacts
+            Contact
           </a>
-
-          <button>
-            <img
-              className="w-8"
-              src="/assets/icon _sun outline_.png"
-              alt="light-icon"
-            />
-          </button>
         </ul>
       </nav>
     </>
   );
 }
-
-// onClick={() => setDarkMode(!darkMode)}

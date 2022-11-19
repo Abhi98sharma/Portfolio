@@ -1,16 +1,14 @@
-import { Link } from "react-router-dom";
-
 export default function HamburgerMenu({ isOpen, toggle }) {
   return (
     <>
       <nav
         className={
           isOpen
-            ? "bg-white w-full fixed inset-0 flex flex-col items-start justify-start gap-5 px-6 font-Inter text-white"
+            ? "bg-black max-w-full min-h-screen flex flex-col items-start justify-start gap-5 font-Inter text-white"
             : "hidden"
         }
       >
-        <div className="container mx-auto w-full h-[80px] flex justify-between items-center bg-white">
+        <div className="w-full h-[80px] px-8 flex justify-between items-center bg-[#111111]">
           <a href="#">
             <img
               className="w-40 lg:w-48 lg:h-20"
@@ -18,10 +16,9 @@ export default function HamburgerMenu({ isOpen, toggle }) {
               alt="logo"
             />
           </a>
-
           <svg
             onClick={toggle}
-            className="w-8 h-8 hover:text-[#0C1821]"
+            className="w-8 h-8"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -35,39 +32,39 @@ export default function HamburgerMenu({ isOpen, toggle }) {
             />
           </svg>
         </div>
-        <ul className="flex flex-col items-start gap-7">
-          <Link to="/">
+        <ul className="flex flex-col items-start gap-7 px-8">
+          <a href="#">
             <li
               onClick={toggle}
-              className="text-lg text-white hover:text-[#0C1821] transition-colors"
+              className="text-lg text-white"
             >
               Home
             </li>
-          </Link>
-          <Link to="/about">
+          </a>
+          <a href="#skills">
             <li
               onClick={toggle}
-              className="text-lg text-white hover:text-[#0C1821] transition-colors"
+              className="text-lg text-white"
             >
-              About
+              Skills
             </li>
-          </Link>
-          <Link to="/products">
+          </a>
+          <a href="#projects">
             <li
               onClick={toggle}
-              className="text-lg text-white hover:text-[#0C1821] transition-colors"
+              className="text-lg text-white"
             >
-              Products
+              Projects
             </li>
-          </Link>
-          <Link to="/contact">
+          </a>
+          <a href="#contact">
             <li
               onClick={toggle}
-              className="text-lg text-white hover:text-[#0C1821] transition-colors"
+              className="text-lg text-white"
             >
               Contact
             </li>
-          </Link>
+          </a>
         </ul>
       </nav>
     </>
