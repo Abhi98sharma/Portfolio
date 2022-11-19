@@ -37,9 +37,7 @@ export default function Contact() {
             <img src="/assets/contact.png" alt="contact-img" />
           </div>
           <div className="w-[100%] space-y-5">
-            <h3 className="text-center text-[30px] font-Quicksand font-bold">
-              Contact Me
-            </h3>
+           
             <form
               ref={form}
               onSubmit={sendEmail}
