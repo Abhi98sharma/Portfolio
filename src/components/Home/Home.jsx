@@ -31,7 +31,7 @@ export default function Home() {
           </p>
           <div className="btn mt-10">
             <a
-              href="https://drive.google.com/file/d/1fc3xP9f-R06C_2Bxj84FSIq1-A-kap_p/view?usp=share_link"
+              href="https://drive.google.com/file/d/12LUmZM3ce2k48y2h1MZWiYhLVvQzW4lI/view?usp=share_link"
               target="_blank"
             >
               Resume

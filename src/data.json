@@ -1,6 +1,19 @@
 [
     {
         "id": 1,
+        "image": "/screenshot/Light-Lens.jpg",
+        "title": "Light-Lens",
+        "description": "An e-commerce website for Spectacles built using Reactjs. You can add, delete, and see products using the product tab.",
+        "tech": [
+            "React.js",
+            "Tailwind CSS",
+            "Framer Motion"
+        ],
+        "github": "https://github.com/Abhijeet03s/Light-Lens",
+        "live": "https://abhijeet-light-lens.vercel.app/"
+    },
+    {
+        "id": 2,
         "image": "/screenshot/Meme-Generator.png",
         "title": "Meme Generator",
         "description": "Created Random Meme Generator using React.js",
@@ -13,7 +26,7 @@
         "live": "https://abhijeet-random-meme-generator.netlify.app/"
     },
     {
-        "id": 2,
+        "id": 3,
         "image": "/screenshot/Task-Mangement-App.png",
         "title": "Task-Management",
         "description": "Created Task Management App using React.js.You can apply all CRUD operations.",
@@ -26,7 +39,7 @@
         "live": "https://abhijeet-todo-app.netlify.app/"
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "/screenshot/Tenzies-Game.png",
         "title": "Tenzies Game",
         "description": "Created Tenzies Game using React.js.Everyone gets ten dice. Someone says, “Go.” Then everyone rolls and rolls as fast as they can until someone gets all their dice on the same number and shouts “TENZI.”",
@@ -37,19 +50,6 @@
         ],
         "github": "https://github.com/Abhijeet03s/Tenzies-Game",
         "live": "https://reactjs-tenzi-game.netlify.app/"
-    },
-    {
-        "id": 4,
-        "image": "/screenshot/e-STORE-App.png",
-        "title": "e-STORE",
-        "description": "Created an e-Commerce App aka 'e-STORE' using React.js and Fake-Store API. You can add, delete, and see products using the categories tab.",
-        "tech": [
-            "React.js",
-            "JavaScript",
-            "Fake-Store-API"
-        ],
-        "github": "https://github.com/Abhijeet03s/E-commerce-Cart-App",
-        "live": "https://abhijeet-e-store.netlify.app/"
     },
     {
         "id": 5,
